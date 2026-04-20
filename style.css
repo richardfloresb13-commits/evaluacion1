@@ -216,3 +216,74 @@ footer {
     font-weight: bold;
     color: var(--primary-color);
 }
+#contacto {
+    background-color: #f1f5f9;
+}
+
+.contacto-contenedor {
+    display: flex;
+    gap: 50px;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.contacto-info {
+    flex: 1;
+}
+
+.contacto-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.contacto-info ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.contacto-info li {
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.contacto-form {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.form-group input, .form-group textarea {
+    padding: 12px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+}
+
+.btn-enviar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-enviar:hover {
+    background-color: var(--dark-color);
+}

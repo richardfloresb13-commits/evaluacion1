@@ -25,7 +25,7 @@
     </header>
 
     <main>
-        <!-- FASE 2: SOBRE MÍ -->
+
         <section id="sobre-mi" class="sobre-mi-seccion">
             <h2>Conóceme un poco más</h2>
             <div class="sobre-mi-contenido">
@@ -46,7 +46,7 @@
                     <ul>
                         <li><strong>Edad:</strong> 20 años</li>
                         <li><strong>Ciudad:</strong> Penco, Chile</li>
-                        <li><strong>Email:</strong> Richard.flores11@inacapmail.cl</li>
+                        <li><strong>Email:</strong> Richardfloresb13@gmail.com</li>
                         <li><strong>Carrera:</strong> Analista programador</li>
                         <li><strong>Intereses:</strong> Diseño UI/UX, Gaming</li>
                     </ul>
@@ -133,5 +133,35 @@
         </section>
 
         <section id="contacto">
-        </section>
-        
+    <h2>Contacto</h2>
+    <div class="contacto-contenedor">
+        <article class="contacto-info">
+            <h3>¡Hablemos!</h3>
+            <p>Si tienes alguna consulta o quieres trabajar conmigo, no dudes en enviarme un mensaje.</p>
+            <ul>
+                <li>📍 Penco, Chile</li>
+                <li>📧 Richardfloresb13@gmail.com</li>
+                <li>💼 LinkedIn: www.linkedin.com/in/richard-flores-667848404</li>
+            </ul>
+        </article>
+
+        <form action="#" method="POST" class="contacto-form">
+            <div class="form-group">
+                <label for="nombre">Nombre Completo</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre..." required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+    </div>
+</section>
