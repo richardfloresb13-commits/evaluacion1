@@ -1,0 +1,108 @@
+/* PARTE 3: Reset y Variables */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #028090;
+    --dark-color: #015A66;
+    --text-light: #FFFFFF;
+    --font-main: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: #F8FAFC;
+}
+
+/* PARTE 7: Modelo de Caja y Flexbox  */
+header {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 1rem 2rem;
+    
+    /* REQUISITO: Flexbox para alinear logo y navegación  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-links {
+    display: flex; /* Flexbox en la lista de enlaces */
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: var(--text-light);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos básicos para las secciones (para visualizarlas) */
+section {
+    min-height: 200px;
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+#sobre-mi h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.sobre-mi-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+article {
+    flex: 2;
+}
+
+article p {
+    margin-bottom: 15px;
+}
+
+blockquote {
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-left: 4px solid #028090;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f1f5f9;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+aside img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+aside ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
