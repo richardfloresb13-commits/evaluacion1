@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -151,9 +154,10 @@ table tr:hover {
 
 footer {
     text-align: center;
-    padding: 40px;
+    padding: 30px;
     background-color: #1a202c;
     color: white;
+    margin-top: 50px;
 }
 #proyectos {
     padding: 80px 10%;
@@ -286,4 +290,21 @@ footer {
 
 .btn-enviar:hover {
     background-color: var(--dark-color);
+}
+@media (max-width: 768px) {
+    .sobre-mi-contenido, 
+    .habilidades-contenedor, 
+    .contacto-contenedor {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 10px;
+        font-size: 0.9rem;
+    }
 }
