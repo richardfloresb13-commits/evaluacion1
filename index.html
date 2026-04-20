@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Personal - Fase 1</title>
+    <title>Portafolio Personal - Richard Flores</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -25,38 +25,15 @@
     </header>
 
     <main>
-        <section id="sobre-mi">
-            <article>
-                </article>
-            <aside>
-                </aside>
-        </section>
-
-        <section id="habilidades">
-            </section>
-
-        <section id="proyectos">
-            </section>
-
-        <section id="contacto">
-            </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 - Todos los derechos reservados</p>
-    </footer>
-
-</body>
-</html>
-<section id="sobre-mi" class="sobre-mi-seccion">
+        <!-- FASE 2: SOBRE MÍ -->
+        <section id="sobre-mi" class="sobre-mi-seccion">
             <h2>Conóceme un poco más</h2>
-            
             <div class="sobre-mi-contenido">
                 <article class="descripcion">
                     <h3>Sobre Mí</h3>
                     <p>Mi nombre es <strong>Richard flores</strong> y soy estudiante de analista programador.</p>
                     <p>Desde que descubrí la programación, me apasiona crear sitios web que sean tanto funcionales como estéticamente agradables.</p>
-                    <p>Actualmente me encuentro aprendiendo <em>HTML5, CSS3 y JavaScript</em>, Me gusta trabajar en equipo y aprender nuevas tecnologías.</p>
+                    <p>Actualmente me encuentro aprendiendo <em>HTML5, CSS3 y JavaScript</em>. Me gusta trabajar en equipo y aprender nuevas tecnologías.</p>
                     
                     <blockquote>
                         "El único modo de hacer un gran trabajo es amar lo que haces." - Steve Jobs
@@ -65,7 +42,6 @@
 
                 <aside class="datos-personales">
                     <img src="perfil.jpg" alt="Foto de perfil" width="150" height="150" class="foto-perfil">
-                    
                     <h3>Datos Personales</h3>
                     <ul>
                         <li><strong>Edad:</strong> 20 años</li>
@@ -77,47 +53,85 @@
                 </aside>
             </div>
         </section>
-        <section id="habilidades">
-    <h2>Habilidades y Tecnologías</h2>
-    <div class="habilidades-contenedor">
-        <table>
-            <thead>
-                <tr>
-                    <th>Tecnología</th>
-                    <th>Nivel de Dominio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML5</td>
-                    <td>Intermedio</td>
-                </tr>
-                <tr>
-                    <td>CSS3</td>
-                    <td>Intermedio</td>
-                </tr>
-                <tr>
-                    <td>JavaScript</td>
-                    <td>Básico</td>
-                </tr>
-                <tr>
-                    <td>Git / GitHub</td>
-                    <td>Intermedio</td>
-                </tr>
-            </tbody>
-        </table>
 
-        <div class="listas-habilidades">
-            <h3>Competencias</h3>
-            <ul>
-                <li>Maquetación responsiva</li>
-                <li>Uso de Flexbox</li>
-            </ul>
-            <h3>Ruta de Aprendizaje</h3>
-            <ol>
-                <li>mejorar en JavaScript</li>
-                <li>React.js</li>
-            </ol>
-        </div>
-    </div>
-</section>
+        <!-- FASE 3: HABILIDADES -->
+        <section id="habilidades">
+            <h2>Habilidades y Tecnologías</h2>
+            <div class="habilidades-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Nivel de Dominio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML5</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>CSS3</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Básico</td>
+                        </tr>
+                        <tr>
+                            <td>Git / GitHub</td>
+                            <td>Intermedio</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="listas-habilidades">
+                    <h3>Competencias</h3>
+                    <ul>
+                        <li>Maquetación responsiva</li>
+                        <li>Uso de Flexbox</li>
+                    </ul>
+                    <h3>Ruta de Aprendizaje</h3>
+                    <ol>
+                        <li>Mejorar en JavaScript</li>
+                        <li>React.js</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <img src="photo1.png" alt="Proyecto 1">
+                    <div class="proyecto-info">
+                        <h3>Librería El Gran Poeta</h3>
+                        <p>Maqueta funcional con CRUD para gestión de inventario y autores.</p>
+                        <span class="tech">JS - HTML - CSS</span>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="photo2.png" alt="Proyecto 2">
+                    <div class="proyecto-info">
+                        <h3>Dashboard de SQA</h3>
+                        <p>Visualización de métricas de calidad basadas en normas ISO/IEC.</p>
+                        <span class="tech">Python - MySQL</span>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="photo3.png" alt="Proyecto 3">
+                    <div class="proyecto-info">
+                        <h3>Red VLSM</h3>
+                        <p>Calculadora de subredes optimizada para redes corporativas.</p>
+                        <span class="tech">Cisco - Redes</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+        </section>
+        
